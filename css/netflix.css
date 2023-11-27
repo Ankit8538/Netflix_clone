@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@200;300;400;500;600;700&display=swap'); 
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*
+*,
+*::after,
+*::before
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+body
+{
+     font-family: 'Poppins', sans-serif;
+}
+.main-boss
+{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0)60%, rgba(0, 0, 0, 0.8) 100%),url('../img/Netflex\ project.jpg');
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.down-boss
+{
+    
+    color: aliceblue;
+
+     position: absolute;
+   top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.20),rgba(0,0,0,0.20));
+}
+
+@media screen and (min-width: 1029.33px) {
+    .down-boss .child{
+        font-size:2.0rem;
+        font-weight: 900;
+    }
+}
+.down-boss p
+{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.imo  #Email-id
+{
+    transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    width: 60%;
+    background-color: transparent;
+    line-height: 1.5rem;
+    padding: 0.5rem 1rem 0.5rem;
+    color: white;
+}
+#Email-id:hover
+{
+   background-color: transparent;  
+   border: 2px solid white;
+}
+.imo button
+{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: palegreen;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: red;
+    cursor: pointer;
+    opacity: 1;
+}
+.imo button:hover 
+{
+    opacity: 0.5;
+}
+.main-boss .navbar
+{
+    margin-left: 75px;
+    margin-right: 75px;
+    
+    width: 1120px;
+    height: 86px;
+
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.box
+{
+    
+}
+.box-1
+{
+    width: 72%;  
+}
+.box-2
+{ 
+ width:15%;
+}
+.box-3
+{
+ width: 13%;   
+}
+.box-1 h1
+{
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgba(229, 9, 20, 1);
+    fill: currentColor;
+    display: 900;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+}
+.box-2 select
+{
+    width: 130px;
+    height: 30px;
+    color: white;
+    
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+}
+.navbar .box-3 .sin
+{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.navbar .box-3 .sin a
+{
+   
+    text-decoration: none;
+    color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 1;
+    
+}
+.navbar .box-3 .sin:hover
+{
+    opacity: 0.5;
+}
+.bott
+{
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -0.5rem;
+    width: 100%;
+    background-color: rgb(35,35,35);
+}
+.second-phase
+{
+    background-color: black;
+    color: azure;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 948.67;
+    height: 355.25;
+    
+    flex-wrap: wrap;
+    
+}
+.second-phase .start-1
+{
+    
+    width: 45%;
+    z-index: 1;
+
+}
+
+.second-phase .start-3
+{
+    
+    width: 55%;
+    position: relative;
+    z-index: 1;
+    
+
+    background: url('../video/Netflix\ India\ –\ Watch\ TV\ Shows\ Online\,\ Watch\ Movies\ Online.m4v');
+}
+.second-phase .start-1 .op
+{
+    font-size: 48px;
+
+}
+.second-phase .start-1 p
+{
+    font-size: 22px;
+    font-weight: 400;
+}
+.start-3 .vid-1
+{
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 80%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 55%;
+    
+    transform: translate(-50%, -50%);
+}
+.bott-1
+{
+    width: 100%;
+    height: 0.5rem;  
+    background-color: rgb(35, 35,35);
+}
+.phase-third
+{
+    width: 948.67;
+    height: 600.25;
+    background: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.phase-third .sub1-third
+{
+
+    width: 50%;
+    position: relative;
+    
+}
+.phase-third .sub2-third
+{
+    color: white;
+
+    width: 50%;
+}
+
+.phase-third .sub2-third h2
+{
+    font-size: 3rem;
+}
+.phase-third .sub2-third p
+{
+    font-size: 24px;
+}
+.small-box
+{
+    width: 309px;
+    height: 96;
+    
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: absolute;
+    left: 45%;
+    bottom: 8%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    background: rgb(0,0,0);
+    border: 2px solid rgb(65,65,65);
+    box-shadow: 0 0 2em 0 rgb(0,0,0);
+    border-radius: 0.75rem;
+    z-index: 1;
+
+}
+.small-box .small1
+{
+    
+}
+.small-box .small2
+{
+    
+    color: white;
+}
+.small-box .small3
+{
+    
+    
+    background: url(../img/download-icon.gif) center center no-repeat;
+}
+.small-box .small2 .put
+{
+    color: blue;
+}
+.phase-fourth
+{
+    
+    
+    background-color: black;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.phase-fourth .fourth1
+{
+    
+    color: white;
+    width: 50%;
+    
+}
+.phase-fourth .fourth2
+{
+    
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+.phase-fourth .fourth1 h2
+{
+    font-size: 48px;
+}
+.phase-fourth .fourth1 p
+{
+    font-size: 22px;
+    font-weight: 400;
+}
+.phase-fourth .fourth2 .vid-2
+{
+    z-index: -1;
+    overflow: hidden;
+    width: 325.2px;
+    height: 227.48px;
+    position: absolute;
+    top: 35%;
+    left: 49%;
+    
+    transform: translate(-50%, -50%);
+}
+.phase-fourth .fourth2 .vid-2 video
+{
+    display: inline-block;
+}
+.phase-fifth
+{
+
+    width: 948.67;
+    height: 600.25;
+    background: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.phase-fifth .fifth1
+{
+
+    width: 50%;
+}
+.phase-fifth .fifth2
+{
+    
+    width: 50%;
+    color: white;
+}
+.phase-fifth .fifth2 h2
+{
+    font-size: 3rem;
+
+}
+.phase-fifth .fifth2 p
+{
+    font-size: 24px;
+
+}
+.heading
+{
+    font-size: 3rem;
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px ;
+
+}
+.allbox 
+{ 
+    
+    background: black;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 700px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.allbox .ankit
+{
+    width: 948.67px;
+    height: 84px;
+    padding: 24px;
+    font-size: 24px;
+    background-color: #555555;
+    
+
+}
+.para
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 1.875rem;
+}
+.imo2 #Email-id
+{
+    transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    width: 30%;
+    background-color: transparent;
+    line-height: 1.5rem;
+    padding: 0.5rem 1rem 0.5rem;
+    color: white;
+}
+.imo2
+{
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.imo2 button
+{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: palegreen;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: red;
+    cursor: pointer;
+    opacity: 1;
+}
+.imo2 input:hover
+{
+   background-color: transparent;  
+   border: 2px solid white;
+}
+.imo2 button:hover 
+{
+    opacity: 0.5;
+}
+.foot
+{
+    background: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: aliceblue;
+}
+.allfooter
+{
+
+    height: 500px;
+    background: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around; 
+    border: 2px solid red;
+}
+.all
+{
+    border: 2px solid red;
+}
+.allfooter .all a
+{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16px;
+}
+.allfooter .foot1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
